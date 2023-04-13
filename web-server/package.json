@@ -1,10 +1,11 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "Primeiro Projeto web-server - HTTP",
+  "description": "Exemplo Criação HTTP server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [
     "http",
@@ -12,5 +13,9 @@
     "nodejs"
   ],
   "author": "JP",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "Express": "^3.0.1"
+  }
 }
